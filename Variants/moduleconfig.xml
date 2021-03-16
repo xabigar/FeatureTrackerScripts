@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<moduleconfigs name="Default">
+  <moduleconfig ignoreerrors="false" name="FileProcessing">
+    <input use="false"/>
+    <output clear="false" create="false" recover="false" use="false"/>
+    <mode type="overwrite"/>
+    <modelfilter use="false">iZDYEoOJvFKXojv_z</modelfilter>
+    <module exclude="" include="/variant" name="Convert to transformer action list" tname="standard transformation">
+      <parameter name="output file" type="ps:path"/>
+      <parameter name="execution time" type="ps:string">before</parameter>
+    </module>
+    <module exclude="" include="/variant" name="Execute transformer action list" tname="actionlist">
+      <parameter name="in" type="ps:path"/>
+      <parameter name="destroy" type="ps:boolean"/>
+      <parameter name="execution time" type="ps:string">after</parameter>
+    </module>
+  </moduleconfig>
+  <moduleconfig ignoreerrors="false" name="AddGoogleAnalytics">
+    <input use="false"/>
+    <output clear="false" create="false" recover="false" use="false"/>
+    <mode type="overwrite"/>
+    <modelfilter use="false">iMkLyCV6CAOKwLQ7E iZDYEoOJvFKXojv_z</modelfilter>
+    <module exclude="" include="/variant" name="Add Google Analytics sentences" tname="Java Script Transformation Module">
+      <parameter name="javascriptfile" type="ps:path">/Users/xabiergarmendia/Documents/workspace/Weather Station Example2/script/addGoogleAnalyticsSentences.js</parameter>
+      <parameter name="outputfile" type="ps:path"/>
+      <parameter name="partial" type="ps:boolean">false</parameter>
+    </module>
+  </moduleconfig>
+  <moduleconfig ignoreerrors="false" name="All">
+    <input use="false"/>
+    <output clear="false" create="false" recover="false" use="false"/>
+    <mode type="overwrite"/>
+    <modelfilter use="false">iZDYEoOJvFKXojv_z</modelfilter>
+    <module exclude="" include="/variant" name="Convert to transformer action list" tname="standard transformation">
+      <parameter name="output file" type="ps:path"/>
+      <parameter name="execution time" type="ps:string">before</parameter>
+    </module>
+    <module exclude="" include="/variant" name="Execute transformer action list" tname="actionlist">
+      <parameter name="in" type="ps:path"/>
+      <parameter name="destroy" type="ps:boolean"/>
+      <parameter name="execution time" type="ps:string">after</parameter>
+    </module>
+    <module exclude="" include="/variant" name="Generate Selection Report" tname="Java Script Transformation Module">
+      <parameter name="javascriptfile" type="ps:path">$(PROJECT)/script/elementIsInVariant.js</parameter>
+      <parameter name="outputfile" type="ps:path"/>
+      <parameter name="partial" type="ps:boolean">false</parameter>
+    </module>
+  </moduleconfig>
+  <moduleconfig ignoreerrors="false" name="RemoveGoogleAnalytics">
+    <input use="false">$(PROJECT)/input</input>
+    <output clear="true" create="true" recover="true" use="false">$(PROJECT)/output/$(VARIANT)</output>
+    <mode type="overwrite"/>
+    <modelfilter use="false">iMkLyCV6CAOKwLQ7E iZDYEoOJvFKXojv_z</modelfilter>
+    <module exclude="" id="com.ps.consul.eclipse.ui.transform.javascript.modul" include="/variant" name="Remove Google Analytics sentences" tname="Java Script Transformation Module">
+      <parameter name="javascriptfile" type="ps:path">/Users/xabiergarmendia/Documents/workspace/Weather Station Example2/script/removeGoogleAnalyticsSentences.js</parameter>
+      <parameter name="outputfile" type="ps:path"/>
+      <parameter name="partial" type="ps:boolean">false</parameter>
+    </module>
+  </moduleconfig>
+  <moduleconfig ignoreerrors="false" name="GoogleAnalytics">
+    <input use="false">$(PROJECT)/input</input>
+    <output clear="true" create="true" recover="true" use="false">$(PROJECT)/output/$(VARIANT)</output>
+    <mode type="overwrite"/>
+    <modelfilter use="false">iMkLyCV6CAOKwLQ7E iZDYEoOJvFKXojv_z</modelfilter>
+    <module exclude="" id="com.ps.consul.eclipse.ui.transform.javascript.modul" include="/variant" name="Add Google Analytics sentences" tname="Java Script Transformation Module">
+      <parameter name="javascriptfile" type="ps:path">/Users/xabiergarmendia/Documents/workspace/Weather Station Example2/script/addGoogleAnalyticsSentences.js</parameter>
+      <parameter name="outputfile" type="ps:path"/>
+      <parameter name="partial" type="ps:boolean">false</parameter>
+    </module>
+    <module exclude="" id="com.ps.consul.eclipse.ui.transform.actionlist.generator.module" include="/variant" name="Action List Generator" tname="standard transformation">
+      <parameter name="output file" type="ps:path"/>
+    </module>
+    <module exclude="" id="com.ps.consul.eclipse.ui.transform.actionlist.runner.module" include="/variant" name="Action List Runner" tname="actionlist">
+      <parameter name="in" type="ps:path"/>
+      <parameter name="destroy" type="ps:boolean"/>
+    </module>
+    <module exclude="" id="com.ps.consul.eclipse.ui.transform.javascript.modul" include="/variant" name="Remove Google Analytics sentences" tname="Java Script Transformation Module">
+      <parameter name="javascriptfile" type="ps:path">/Users/xabiergarmendia/Documents/workspace/Weather Station Example2/script/removeGoogleAnalyticsSentences.js</parameter>
+      <parameter name="outputfile" type="ps:path"/>
+      <parameter name="partial" type="ps:boolean">false</parameter>
+    </module>
+  </moduleconfig>
+</moduleconfigs>

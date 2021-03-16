@@ -1,0 +1,295 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="iMkLyCV6CAOKwLQ7E" cm:version="1.7" cm:type="ps:ccfm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="iMkLyCV6CAOKwLQ7E_A_psversion" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="iMkLyCV6CAOKwLQ7E_A_psversion_C" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iMkLyCV6CAOKwLQ7E_A_psname" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="iMkLyCV6CAOKwLQ7E_A_psname_C" cm:type="ps:string">WS2</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iMkLyCV6CAOKwLQ7E_A_psauthor" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="iMkLyCV6CAOKwLQ7E_A_psauthor_C" cm:type="ps:string">xabiergarmendia</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iMkLyCV6CAOKwLQ7E_A_pscreated" cm:type="ps:date" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="iMkLyCV6CAOKwLQ7E_A_pscreated_C" cm:type="ps:date">2021-03-10T11:04:15Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iqOMDe7me3-vagYiO" cm:type="ps:natures" cm:invisible="true" cm:fixed="true" cm:container="ps:list" cm:name="ps:ModelNature">
+        <cm:constant cm:id="imOGEH1eSAQgOxN7E" cm:type="ps:natures">com.ps.consul.eclipse.ui.sourceimport.SourceImportNature</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="ifkwIdSHwU0x59fqog2S_jXL5tfg">
+    <cm:element cm:id="ifkwIdSHwU0x59fqog2S_jXL5tfg" cm:name="WS2" cm:type="ps:family" cm:class="ps:family" cm:default="on">
+      <cm:relations cm:id="ifkwIdSHwU0x59fqog2S_jXL5tfgdependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="ijcermJt00TdWgXdaV72TK5cWQkntOk3T7EIylcD3" cm:class="ps:children">
+        <cm:relation cm:id="i7EtKeH9_F3oZXmkYDNy2KzMjeHYS6U6EygNPZSuf" cm:type="ps:optional">
+          <cm:target cm:id="i5oWSlYw19VkI1TbqV7aq2nu1__OknJlYqKygExyw">./ijQJjfd3eJvToK3FQrMjCT-Eb0Td</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i1iv3JpJCt121CeeWDtQTuhRZr2i" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:readonly="true" cm:name="config">
+          <cm:constant cm:id="iJt2C3zGNbv0efnTEIIsR2UBLMbf" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.JavaConfiguration</cm:constant>
+        </cm:property>
+        <cm:property cm:id="irHWr9BNvGnapiPzmQeqzHvosR9k" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:readonly="true" cm:name="sourceimport:configuration:settings">
+          <cm:constant cm:id="iuDk0r5sHXXgEszVC6cdeRMQNXJk" cm:type="ps:string">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;associations&gt;&lt;association checked=&quot;false&quot; desc=&quot;Other files&quot; ending=&quot;.*&quot; filetype=&quot;undefined&quot; type=&quot;ps:object&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;Java source file&quot; ending=&quot;.java&quot; filetype=&quot;impl&quot; type=&quot;ps:class&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;Ant build script&quot; ending=&quot;build.xml&quot; filetype=&quot;misc&quot; type=&quot;ps:makefile&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;text&quot; ending=&quot;.txt&quot; filetype=&quot;impl&quot; type=&quot;ps:class&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;mind&quot; ending=&quot;.mind&quot; filetype=&quot;impl&quot; type=&quot;ps:class&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;pdf&quot; ending=&quot;.pdf&quot; filetype=&quot;impl&quot; type=&quot;ps:class&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;html&quot; ending=&quot;.html&quot; filetype=&quot;impl&quot; type=&quot;ps:class&quot;/&gt;&lt;association checked=&quot;true&quot; desc=&quot;js&quot; ending=&quot;.js&quot; filetype=&quot;misc&quot; type=&quot;ex:js&quot;/&gt;&lt;pattern/&gt;&lt;switches&gt;&lt;switch name=&quot;HIDE_MT_COMPONENTS&quot;&gt;true&lt;/switch&gt;&lt;switch name=&quot;USE_RELATIVE_PATHS&quot;&gt;true&lt;/switch&gt;&lt;switch name=&quot;USE_SORTING&quot;&gt;true&lt;/switch&gt;&lt;/switches&gt;&lt;values&gt;&lt;value name=&quot;RELATIVE_PATH&quot;&gt;/Users/xabiergarmendia/Documents/workspace/Weather Station Example2/input&lt;/value&gt;&lt;value name=&quot;RELATIVE_TO&quot;&gt;path&lt;/value&gt;&lt;/values&gt;&lt;/associations&gt;</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i80QCxzNP9ui5WCj8" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="ModelSyncStoreID">
+          <cm:constant cm:id="i4gQOhNQwkJdJz4LU" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.SourceImportSyncStore</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5rqoVmeeAlJaX766" cm:type="ps:natures" cm:invisible="true" cm:fixed="true" cm:name="ps:ModelNature">
+          <cm:constant cm:id="i0nbZS3hqMweJVW6x" cm:type="ps:natures">com.ps.consul.eclipse.ui.sourceimport.SourceImportNature</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwF0L9ujpM1V6o1L4" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="MAP_OBJECT">
+          <cm:constant cm:id="iYKCOf9jnBqWN3xr-" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.ObjectNullMapping</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ig74DBwQhA2llP5Ah" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="SOURCE_HANDLER">
+          <cm:constant cm:id="iqxTilT4bQWUQN5uH" cm:type="ps:string">com.ps.consul.eclipse.ui.sourceimport.SourceImportHandler</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWzJ3586vB0RYDPj6" cm:type="ps:string" cm:invisible="true" cm:fixed="true" cm:name="EXT_TOOL">
+          <cm:constant cm:id="iOacdErkSchGnkvv8" cm:type="ps:string">Filesystem</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iSw8OMJKC_fVAiYmU" cm:mimetype="text/plain" cm:encoding="utf-8">Root</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ijQJjfd3eJvToK3FQrMjCT-Eb0Td" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="ijQJjfd3eJvToK3FQrMjCT-Eb0Tddependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="ibaNP-V39BMY8Nj3Tzw4E8V_F3DdWExQ6JOVRK59_" cm:class="ps:parents">
+        <cm:relation cm:id="iNjI4QkSlVR8pN5y2cqOAq0vL4EMzqu3DwLod29__" cm:type="ps:parent">
+          <cm:target cm:id="i1DTlU7kYD3ruZClInJUl2DfXMjdq4-wvgHPQURs0">./ifkwIdSHwU0x59fqog2S_jXL5tfg</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iYSmZcWEh5oXm6EZSE34o8VkIcaIO9VSl7EWSwf0n" cm:class="ps:children">
+        <cm:relation cm:id="i7o4-EhoJcapJq0seJiWm5ENzHyS7J4B2r0RQkY2D" cm:type="ps:optional">
+          <cm:target cm:id="iV79FMPDhw1aa3DsuDxjsxvre__ruyMW8aGbWP6te">./iE9JwjgXdq2kXzKEt4YIMw5vu4ul</cm:target>
+          <cm:target cm:id="i4UdWwf2nAMlcAMwL9_T7suTlQks0uLV719aWlIfH">./iYsm9aoXgz3jlMQMRte9VcTX5LNk</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ihUorJomCzRds_M-oJiw2VhvWRxo" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iYYkg4xa27NlDuOya7NVOtwgG_-l" cm:type="ps:directory"></cm:constant>
+        </cm:property>
+        <cm:property cm:id="ih-O4vvVDDR3j5f5TGPS5-0DlrZo" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i0aWnblgRNxLESiQXl0AU0G3S3Sn" cm:type="ps:directory"></cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iqmDO9wgm0DIBDvE8" cm:mimetype="text/plain" cm:encoding="utf-8">Root</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iE9JwjgXdq2kXzKEt4YIMw5vu4ul" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iE9JwjgXdq2kXzKEt4YIMw5vu4uldependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="iFNGO3ndapdJ4WSKPX88FpZaWYm8FT7gXfXs0FNgH" cm:class="ps:parents">
+        <cm:relation cm:id="icGURBwFhgrFx0nCxEx-p9pQAaadaXS3T09HiExOk" cm:type="ps:parent">
+          <cm:target cm:id="izMgHZm194EkII4fbjY8FkcM5FhYCO6zMhXr0DNx1">./ijQJjfd3eJvToK3FQrMjCT-Eb0Td</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i-FcGIOMjVRotIycqV7yM8FHiKjYSChjYgHA2G4Jy" cm:class="ps:children">
+        <cm:relation cm:id="iDNca9_cGBg19RAxv9pyw8VPQSlChX8ptjIr0lYK5" cm:type="ps:optional">
+          <cm:target cm:id="iquKz0DAMLP2nS7IOcGlspZDhVBQQcaSlZm5-aanJ">./ivWpjW2kheU80IGZaL9eRt0_gC2p</cm:target>
+          <cm:target cm:id="ifHC3L5FxGiYSdW5o-pZ8iIXSRAOQF3bGKzjsURz2">./iP2z4-wDugDgODMCY_EcG01lWSAh</cm:target>
+          <cm:target cm:id="ituW8zwtKH4ZmebptzwNjmJisC3w1L5Ex_V7EbWAg">./iy-CsaMx7I4rETutw2tB821yu12a</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ilPCyr5jTFvt1abvhDoZdkfLXGGo" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="srcdir">
+          <cm:constant cm:id="iWJG-I5Hb2zXXL2k2B1K65G3Qddl" cm:type="ps:directory">js</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUxxnpRJWsvzCBGdORxWSP_xZCgp" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="ispPO12m6cDEwrjuxyqX0W0Kgwgm" cm:type="ps:directory">js</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iwrUaYXAZ0HHh7E8_" cm:mimetype="text/plain" cm:encoding="utf-8">js</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ivWpjW2kheU80IGZaL9eRt0_gC2p" cm:type="ex:js" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ivWpjW2kheU80IGZaL9eRt0_gC2pdependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="iQ6-_7EeXTB6-JiH4L5Hy2D-V4oHylY-pnJ19x1kc" cm:class="ps:parents">
+        <cm:relation cm:id="i_ppJ0nNjCNtKqKCxcWC3Fh4oZCGiUR09Ii5o09L5" cm:type="ps:parent">
+          <cm:target cm:id="iV7IimdgH-VmZVBAw8FzwiYtKChVRJinZOQmJFxaa">./iE9JwjgXdq2kXzKEt4YIMw5vu4ul</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ibaM5PkOkicgbMjfXJyDhdWbGruOQkYRAcWS7oZZ8" cm:class="ps:children">
+        <cm:relation cm:id="i_VVBoZE32DsKicCNAg9VseVBN5bWdGfHeXcWKzbG" cm:type="ps:optional">
+          <cm:target cm:id="iG47Eu1Tluf2n4UH4nJDxWCNPfr1D2Dw1aaKjVRF3">./iDKzOtvQvDGhjXwmdSSCcJV2Q5Ca</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:vname>
+        <cm:mimedesc cm:id="iBjnBUSn6Gs9KzL6W" cm:mimetype="text/plain" cm:encoding="utf-8">scale</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iDKzOtvQvDGhjXwmdSSCcJV2Q5Ca" cm:type="ps:pvscltext" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iDKzOtvQvDGhjXwmdSSCcJV2Q5Cadependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="i0ThbmtBMfXK5Iy3TBwDhHiU739ZCEhkYuLIi5oH4" cm:class="ps:parents">
+        <cm:relation cm:id="i1DerUB9_ZmteO6TBaa5-P6Xm1TMjGO_V191nE3UB" cm:type="ps:parent">
+          <cm:target cm:id="iOkTBW84UsK6EA2TRuv4EpJmdpZ_VcWvfYS-VLzO6">./ivWpjW2kheU80IGZaL9eRt0_gC2p</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i7tDoUocN2TjKqPdeG8rqagInwro" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ikCs-U5c27CbFc6E4E5BoHkjcBli" cm:type="ps:path">scale.js</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i83rFUsU0j6DToxytjMIKQ0HSjbm" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iyMgOUC4kPu32PevbaBPmRXYIk-e" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iim4CNzfAXayjv5Yy" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iNLjwtVGzPj9Ve-J3" cm:type="ps:string">xabiergarmendia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifDU-VgeOZEDCm4q_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iHKmXfQtiTS5mIhqw" cm:type="ps:datetime">2021-03-10T11:07:34.742Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iwYR241UvG9D06ZtD" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iUGOQv4gTqqW8A1Zg" cm:type="ps:string">xabiergarmendia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iG6_eSMOsEFwtulKh" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iBIuNkSeWL5BncfnL" cm:type="ps:datetime">2021-03-10T11:07:34.742Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iL0BiGji4AE536dNw" cm:mimetype="text/plain" cm:encoding="utf-8">scale.js</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iP2z4-wDugDgODMCY_EcG01lWSAh" cm:type="ex:js" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iP2z4-wDugDgODMCY_EcG01lWSAhdependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="iU7lIJi_piYgb2n1nz29V3TGyru6UVloZGO8peXQ6" cm:class="ps:parents">
+        <cm:relation cm:id="iIOfHuv6-DhbGyw8_Lj1DoJWSZ8kYwfRk0DEhvLkc" cm:type="ps:parent">
+          <cm:target cm:id="iqK8VeroJGireXSs0fXT7qKT7RAKPR6X8VlmdWmaW">./iE9JwjgXdq2kXzKEt4YIMw5vu4ul</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iG4GiJiw1Eh-_jY9Fqut0ywlsT7TBBgRAHyAw2T1T" cm:class="ps:children">
+        <cm:relation cm:id="i4E9pF3Q6HiD3JyqKte_FQA9Vx1P6pZ-FPkYmS7zg" cm:type="ps:optional">
+          <cm:target cm:id="iENV77odqH4lILzXSOAmd7UH4B21nhHVBzM4UT7OQ">./iOGHSQCP9JVOFN-DIjCIeylNSJ6b</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:vname>
+        <cm:mimedesc cm:id="iVKDpXAYFIi8ux4kR" cm:mimetype="text/plain" cm:encoding="utf-8">sensors</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iOGHSQCP9JVOFN-DIjCIeylNSJ6b" cm:type="ps:pvscltext" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iOGHSQCP9JVOFN-DIjCIeylNSJ6bdependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="ifHs0-_hXbWndx1Njot1TV7Q62Tjc3DDxv1OAzMxf" cm:class="ps:parents">
+        <cm:relation cm:id="iHyWmFh_VNzr0-_Y87EExy2mtmt-p3n5EHOlYdWZ8" cm:type="ps:parent">
+          <cm:target cm:id="iLzruwfjY4-ZSr0x1WmjYfX0ndaRkvLxvJ4M5-pAw">./iP2z4-wDugDgODMCY_EcG01lWSAh</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ixj0-mn2gGLPTgqfYzZbgKQrH00d" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="imeCdHotgGQC_XP-z_gBaBsjXPJe" cm:type="ps:path">sensors.js</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ig4BZSHZp7M9jiEGJQbDPjifNPcf" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="iLCHvk7pHExxE0yRSg0LMevGWNNn" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i99PUcg9wErEXsptp" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iwGqrou9WIwsURnN3" cm:type="ps:string">xabiergarmendia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i56RcoWKSxk6LSPCc" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ieWNyVeEkstQVTrdy" cm:type="ps:datetime">2021-03-10T11:07:43.006Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqjUFSnAZzIl3JZhx" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i0eGIHgXWLKt9FJLV" cm:type="ps:string">xabiergarmendia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idorDxuXssvyE2lJ2" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ioJFODfjKyU8OVvOX" cm:type="ps:datetime">2021-03-10T11:07:43.006Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i6QlhY1JO7bbCDuHc" cm:mimetype="text/plain" cm:encoding="utf-8">sensors.js</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iy-CsaMx7I4rETutw2tB821yu12a" cm:type="ex:js" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iy-CsaMx7I4rETutw2tB821yu12adependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="i3DD3TBbG6ETBdWbqQ6gXkccGr05-XCqeV7MP0nQk" cm:class="ps:parents">
+        <cm:relation cm:id="igrLPnZaaK5SR__CN09W8nZeHkIntMPzg-FquUlhb" cm:type="ps:parent">
+          <cm:target cm:id="iUleXqeN5vfWSlcEhsKPAExqKxfrKQQYmsu5EXSOk">./iE9JwjgXdq2kXzKEt4YIMw5vu4ul</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="izwBgxflc8FPk5obGsejsU7eHM5q0XCIO39Q6qKTB" cm:class="ps:children">
+        <cm:relation cm:id="i1DY8Q6pdNzte3DCxt0rujcURpJ8Fpd3T5UYC_Ffr" cm:type="ps:optional">
+          <cm:target cm:id="i6UQ6RkPQgb1nWCX8q0iYu1QANPB2XSVBBMvfY8qe">./igc8RWyWhNdePY4C_vK-I2LuDG3n</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:vname>
+        <cm:mimedesc cm:id="id6k5KUMyqKGRUGjG" cm:mimetype="text/plain" cm:encoding="utf-8">settings</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="igc8RWyWhNdePY4C_vK-I2LuDG3n" cm:type="ps:pvscltext" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="igc8RWyWhNdePY4C_vK-I2LuDG3ndependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="i0nIirKsKCNvL_VKj_F7-Mz0nR6bWW8BMx1BgsKmd" cm:class="ps:parents">
+        <cm:relation cm:id="iotUlyww1wv0TUldWTRPAte3nreJOGiuvTR5EMjer" cm:type="ps:parent">
+          <cm:target cm:id="iK5RAZC6ogrFNs0K5ygVBAwdqFxx1yMlcaa29G44E">./iy-CsaMx7I4rETutw2tB821yu12a</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iQgt3_P1itnENTt9Ltn0sG_yr74b" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iT-bSfrxiuNCmTGMpBDYP1jkjLrn" cm:type="ps:path">settings.js</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPgJ1aIETioIft1oUn8cn4-PB8Dj" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="idA52mEbvP8KHR_NJ8SeVJhdUxLp" cm:type="ps:filetype">misc</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iaZRmr3B5wQoo4pGA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iC6WwJ5c809FIxaiI" cm:type="ps:string">xabiergarmendia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVJfej5ob59Og06vD" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i05JDBdM8F5RVnMh1" cm:type="ps:datetime">2021-03-10T11:07:54.550Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLaF_MYnxuzq3syWT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i1sNF6eGcrMJ-aOU9" cm:type="ps:string">xabiergarmendia</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQ90N-zKbNmbql1JC" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="itSETX7vsMXui8SQP" cm:type="ps:datetime">2021-03-10T11:07:54.550Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iWLaCvDG0DrUEuD1B" cm:mimetype="text/plain" cm:encoding="utf-8">settings.js</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iYsm9aoXgz3jlMQMRte9VcTX5LNk" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iYsm9aoXgz3jlMQMRte9VcTX5LNkdependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="iLjYC0DENkc2n9ViYeb7oz2PAGiFxWSaGUl9FntRk" cm:class="ps:parents">
+        <cm:relation cm:id="izMTBMz4ogHZmLPeXPkfrAgO6ENwfdGSBdW8Ft0fH" cm:type="ps:parent">
+          <cm:target cm:id="i3n3DV7TBlIuv5ETBx1y2retucaTlywgXVlWS0Dmd">./ijQJjfd3eJvToK3FQrMjCT-Eb0Td</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iQAGimZC3eHC309bWYC__DxHOjIaaLPUlntlI0n4E" cm:class="ps:children">
+        <cm:relation cm:id="iuLEhXm6-R6teJ4P68_MjZmUBQkSR_pDxuLVB6Eqe" cm:type="ps:optional">
+          <cm:target cm:id="iOQ9VbaUB-_uvUR4E5-Ag5EnJhbNjPkKj1nBg8_eH">./iGlta0wT5yeYqdG4MXXQOw0z142b</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:vname>
+        <cm:mimedesc cm:id="iJ_-rOWmNGmtAqf6I" cm:mimetype="text/plain" cm:encoding="utf-8">index</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iGlta0wT5yeYqdG4MXXQOw0z142b" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iGlta0wT5yeYqdG4MXXQOw0z142bdependecies" cm:class="ps:dependencies">
+      </cm:relations>
+      <cm:relations cm:id="i5oBgaaaaGOoJteBMOkRAXmVBIOJ4Bwicer39392T" cm:class="ps:parents">
+        <cm:relation cm:id="ihrT7iIkcaqjIJODNyM9VHi8_F3H4F3CNRk-V29sK" cm:type="ps:parent">
+          <cm:target cm:id="ilsdGbWdabaZS7-vvrKisFN9VAgx1O69pjc_VPQfH">./iYsm9aoXgz3jlMQMRte9VcTX5LNk</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMfxPBM1dwfzmBhfxsOBtPl4ZCCm" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iaAMOF0zCwnA-txPiWqa3N1mOJyf" cm:type="ps:path">index.html</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAs9WwPParbXjpHKgu0kess-Fjva" cm:type="ps:filetype" cm:fixed="true" cm:name="type">
+          <cm:constant cm:id="io1Zze46FfAFJBAtcmI5GpfN-QSd" cm:type="ps:filetype">impl</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iW37CXBqr07tOuxIm" cm:mimetype="text/plain" cm:encoding="utf-8">index.html</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>
